@@ -1,0 +1,13 @@
+-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions
+-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality 
+-I./RTE/Compiler
+-I./RTE/_Target_1
+-I"D:/Programas/Arm Keil/ARM/CMSIS/5.9.0/CMSIS/Core/Include"
+-I"D:/Programas/Arm Keil/ARM/CMSIS/5.9.0/CMSIS/DSP/Include"
+-I"D:/Programas/Arm Keil/ARM/CMSIS/5.9.0/CMSIS/DSP/PrivateInclude"
+-I"D:/Programas/Arm Keil/Keil/ARM_Compiler/1.7.2/Include"
+-I"D:/Programas/Arm Keil/Keil/MDK-Middleware/7.15.0/FileSystem/Include"
+-I"D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_
+-o ./objects/main.o -MD "main.cpp"

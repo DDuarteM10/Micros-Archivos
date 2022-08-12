@@ -1,0 +1,340 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: David Duarte, UMNG, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\david\Desktop\LM35 USAR\Programacion\LM35 USAR.uvprojx
+Project File Date:  03/14/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+LM35 LCD.cpp(5): warning: no previous extern declaration for non-static variable 'temp' [-Wmissing-variable-declarations]
+int temp, decenas,unidades, contador=0;
+    ^
+LM35 LCD.cpp(5): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int temp, decenas,unidades, contador=0;
+^
+LM35 LCD.cpp(5): warning: no previous extern declaration for non-static variable 'decenas' [-Wmissing-variable-declarations]
+int temp, decenas,unidades, contador=0;
+          ^
+LM35 LCD.cpp(5): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int temp, decenas,unidades, contador=0;
+^
+LM35 LCD.cpp(5): warning: no previous extern declaration for non-static variable 'unidades' [-Wmissing-variable-declarations]
+int temp, decenas,unidades, contador=0;
+                  ^
+LM35 LCD.cpp(5): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int temp, decenas,unidades, contador=0;
+^
+LM35 LCD.cpp(5): warning: no previous extern declaration for non-static variable 'contador' [-Wmissing-variable-declarations]
+int temp, decenas,unidades, contador=0;
+                            ^
+LM35 LCD.cpp(5): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int temp, decenas,unidades, contador=0;
+^
+LM35 LCD.cpp(6): warning: no previous extern declaration for non-static variable 'Dela' [-Wmissing-variable-declarations]
+long Dela;
+     ^
+LM35 LCD.cpp(6): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+long Dela;
+^
+LM35 LCD.cpp(7): warning: no previous extern declaration for non-static variable 'contador2' [-Wmissing-variable-declarations]
+int contador2 =0 ;
+    ^
+LM35 LCD.cpp(7): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int contador2 =0 ;
+^
+LM35 LCD.cpp(8): warning: no previous extern declaration for non-static variable 'variable' [-Wmissing-variable-declarations]
+char variable[30];
+     ^
+LM35 LCD.cpp(8): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char variable[30];
+^
+LM35 LCD.cpp(9): warning: no previous extern declaration for non-static variable 'contador3' [-Wmissing-variable-declarations]
+int contador3=1;
+    ^
+LM35 LCD.cpp(9): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int contador3=1;
+^
+LM35 LCD.cpp(10): warning: no previous prototype for function 'delay1' [-Wmissing-prototypes]
+ void delay1(void)
+      ^
+LM35 LCD.cpp(10): note: declare 'static' if the function is not intended to be used outside of this translation unit
+ void delay1(void)
+ ^
+ static 
+LM35 LCD.cpp(15): warning: use of old-style cast [-Wold-style-cast]
+GPIOC->ODR=a|(1UL<<9);
+^~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(782): note: expanded from macro 'GPIOC'
+#define GPIOC               ((GPIO_TypeDef *) GPIOC_BASE)
+                             ^                ~~~~~~~~~~
+LM35 LCD.cpp(17): warning: use of old-style cast [-Wold-style-cast]
+GPIOC->ODR&=~(1UL<<9);
+^~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(782): note: expanded from macro 'GPIOC'
+#define GPIOC               ((GPIO_TypeDef *) GPIOC_BASE)
+                             ^                ~~~~~~~~~~
+LM35 LCD.cpp(14): warning: no previous prototype for function 'send_comando' [-Wmissing-prototypes]
+void send_comando(char a){//envia dato
+     ^
+LM35 LCD.cpp(14): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void send_comando(char a){//envia dato
+^
+static 
+LM35 LCD.cpp(20): warning: use of old-style cast [-Wold-style-cast]
+GPIOC->ODR=b|(3<<8);
+^~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(782): note: expanded from macro 'GPIOC'
+#define GPIOC               ((GPIO_TypeDef *) GPIOC_BASE)
+                             ^                ~~~~~~~~~~
+LM35 LCD.cpp(22): warning: use of old-style cast [-Wold-style-cast]
+GPIOC->ODR&=~(1UL<<9);
+^~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(782): note: expanded from macro 'GPIOC'
+#define GPIOC               ((GPIO_TypeDef *) GPIOC_BASE)
+                             ^                ~~~~~~~~~~
+LM35 LCD.cpp(19): warning: no previous prototype for function 'send_dato' [-Wmissing-prototypes]
+void send_dato(char b){
+     ^
+LM35 LCD.cpp(19): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void send_dato(char b){
+^
+static 
+LM35 LCD.cpp(25): warning: use of old-style cast [-Wold-style-cast]
+        RCC -> AHB1ENR |= 0x7; //Activamos los puetros A B c
+        ^~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(787): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                             ^               ~~~~~~~~
+LM35 LCD.cpp(26): warning: use of old-style cast [-Wold-style-cast]
+        RCC -> APB2ENR  = 0x100; //Habilitamos ADC 1
+        ^~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(787): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                             ^               ~~~~~~~~
+LM35 LCD.cpp(27): warning: use of old-style cast [-Wold-style-cast]
+        GPIOA -> MODER |= 0xA3;//Funcion analoga A0 y alterno
+        ^~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(780): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+LM35 LCD.cpp(28): warning: use of old-style cast [-Wold-style-cast]
+        GPIOB -> MODER |= 0x1;//Funcion analoga A0
+        ^~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(781): note: expanded from macro 'GPIOB'
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                             ^                ~~~~~~~~~~
+LM35 LCD.cpp(30): warning: use of old-style cast [-Wold-style-cast]
+        GPIOC -> MODER |= 0x555555;
+        ^~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(782): note: expanded from macro 'GPIOC'
+#define GPIOC               ((GPIO_TypeDef *) GPIOC_BASE)
+                             ^                ~~~~~~~~~~
+LM35 LCD.cpp(32): warning: use of old-style cast [-Wold-style-cast]
+        ADC1 -> CR1 |= 0x0; // 12 bits por defecto
+        ^~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(768): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                             ^               ~~~~~~~~~
+LM35 LCD.cpp(33): warning: use of old-style cast [-Wold-style-cast]
+        ADC1 -> CR2 |= 0x1; //Encender ADC
+        ^~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(768): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                             ^               ~~~~~~~~~
+LM35 LCD.cpp(34): warning: use of old-style cast [-Wold-style-cast]
+        ADC1 ->CR2 |=ADC_CR2_ADON|ADC_CR2_EXTSEL|ADC_CR2_EXTEN;
+        ^~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(768): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                             ^               ~~~~~~~~~
+LM35 LCD.cpp(36): warning: use of old-style cast [-Wold-style-cast]
+        RCC->APB1ENR |= (1UL<<17); // Enable clock for UART2
+        ^~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(787): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                             ^               ~~~~~~~~
+LM35 LCD.cpp(37): warning: use of old-style cast [-Wold-style-cast]
+        USART2->BRR = 0x683; // 9600 baud
+        ^~~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(760): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                             ^                 ~~~~~~~~~~~
+LM35 LCD.cpp(38): warning: use of old-style cast [-Wold-style-cast]
+        USART2->CR1 = 0x012C; // Enable UART for TX, RX
+        ^~~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(760): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                             ^                 ~~~~~~~~~~~
+LM35 LCD.cpp(39): warning: use of old-style cast [-Wold-style-cast]
+    USART2->CR1 |= 0x2000; // Enable USART
+    ^~~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(760): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                             ^                 ~~~~~~~~~~~
+LM35 LCD.cpp(40): warning: use of old-style cast [-Wold-style-cast]
+        GPIOA->AFR[0] |= 0x7700; // select AF8 (UART2) for PA2, PA3 PIN 2 Y 3
+        ^~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(780): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+LM35 LCD.cpp(24): warning: no previous prototype for function 'Confi' [-Wmissing-prototypes]
+void Confi(void){
+     ^
+LM35 LCD.cpp(24): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Confi(void){
+^
+static 
+LM35 LCD.cpp(43): warning: use of old-style cast [-Wold-style-cast]
+        USART2 -> DR=x;
+        ^~~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(760): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                             ^                 ~~~~~~~~~~~
+LM35 LCD.cpp(43): warning: implicit conversion changes signedness: 'long' to 'std::uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+        USART2 -> DR=x;
+                    ~^
+LM35 LCD.cpp(42): warning: no previous prototype for function 'USAR_SEN' [-Wmissing-prototypes]
+void USAR_SEN(long x){
+     ^
+LM35 LCD.cpp(42): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void USAR_SEN(long x){
+^
+static 
+LM35 LCD.cpp(50): warning: use of old-style cast [-Wold-style-cast]
+                ADC1->CR2 |= (1UL<<30);//Comenzar la conversion
+                ^~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(768): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                             ^               ~~~~~~~~~
+LM35 LCD.cpp(51): warning: use of old-style cast [-Wold-style-cast]
+                temp = (ADC1 -> DR)*8058/100000;
+                        ^~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(768): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                             ^               ~~~~~~~~~
+LM35 LCD.cpp(56): warning: use of old-style cast [-Wold-style-cast]
+                GPIOB -> ODR =0x1;
+                ^~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(781): note: expanded from macro 'GPIOB'
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                             ^                ~~~~~~~~~~
+LM35 LCD.cpp(58): warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+                while(variable[contador2]|=0){
+                      ~~~~~~~~~~~~~~~~~~~^~~
+LM35 LCD.cpp(58): note: place parentheses around the assignment to silence this warning
+                while(variable[contador2]|=0){
+                                         ^
+                      (                     )
+LM35 LCD.cpp(58): note: use '!=' to turn this compound assignment into an inequality comparison
+                while(variable[contador2]|=0){
+                                         ^~
+                                         !=
+LM35 LCD.cpp(60): warning: use of old-style cast [-Wold-style-cast]
+                        USART2 -> DR=(variable[contador2]);
+                        ^~~~~~
+D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h(760): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                             ^                 ~~~~~~~~~~~
+LM35 LCD.cpp(70): warning: C++98 requires newline at end of file [-Wc++98-compat-pedantic]
+        
+        ^
+38 warnings generated.
+compiling LM35 LCD.cpp...
+linking...
+Program Size: Code=1248 RO-data=420 RW-data=0 ZI-data=1680  
+FromELF: creating hex file...
+".\Objects\Tarea Potenciometro.axf" - 0 Error(s), 38 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+   * Component: DSP Variant: Source Version: 1.9.0-dev
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\DSP\Include
+  D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\DSP\PrivateInclude
+  D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: ARM::CMSIS:DSP:Source:1.9.0-dev
+      Include file:  CMSIS\DSP\Include\arm_const_structs_f16.h
+      Source file:   CMSIS\DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c
+      Source file:   CMSIS\DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c
+      Source file:   CMSIS\DSP\Source\ControllerFunctions\ControllerFunctions.c
+      Source file:   CMSIS\DSP\Source\DistanceFunctions\DistanceFunctions.c
+      Source file:   CMSIS\DSP\Source\FastMathFunctions\FastMathFunctions.c
+      Include file:  CMSIS\DSP\Include\arm_common_tables.h
+      Source file:   CMSIS\DSP\Source\BasicMathFunctions\BasicMathFunctions.c
+      Source file:   CMSIS\DSP\Source\CommonTables\CommonTables.c
+      Source file:   CMSIS\DSP\Source\BayesFunctions\BayesFunctions.c
+      Include file:  CMSIS\DSP\Include\arm_const_structs.h
+      Include file:  CMSIS\DSP\Include\arm_math.h
+      Include file:  CMSIS\DSP\Include\arm_math_f16.h
+      Include file:  CMSIS\DSP\Include\arm_common_tables_f16.h
+      Source file:   CMSIS\DSP\Source\InterpolationFunctions\InterpolationFunctions.c
+      Source file:   CMSIS\DSP\Source\BayesFunctions\BayesFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\SupportFunctions\SupportFunctions.c
+      Source file:   CMSIS\DSP\Source\TransformFunctions\TransformFunctions.c
+      Source file:   CMSIS\DSP\Source\StatisticsFunctions\StatisticsFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\BasicMathFunctions\BasicMathFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\MatrixFunctions\MatrixFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\DistanceFunctions\DistanceFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\StatisticsFunctions\StatisticsFunctions.c
+      Source file:   CMSIS\DSP\Source\FilteringFunctions\FilteringFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\SupportFunctions\SupportFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\SVMFunctions\SVMFunctions.c
+      Source file:   CMSIS\DSP\Source\ComplexMathFunctions\ComplexMathFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\FilteringFunctions\FilteringFunctions.c
+      Source file:   CMSIS\DSP\Source\CommonTables\CommonTablesF16.c
+      Source file:   CMSIS\DSP\Source\MatrixFunctions\MatrixFunctions.c
+      Source file:   CMSIS\DSP\Source\TransformFunctions\TransformFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\InterpolationFunctions\InterpolationFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\SVMFunctions\SVMFunctionsF16.c
+      Source file:   CMSIS\DSP\Source\FastMathFunctions\FastMathFunctionsF16.c
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F401xx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xe.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

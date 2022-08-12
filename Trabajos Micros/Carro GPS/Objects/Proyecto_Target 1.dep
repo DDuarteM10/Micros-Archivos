@@ -1,0 +1,84 @@
+Dependencies for Project 'Proyecto', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.cpp)(0x62813BD1)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/_Target_1-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/DSP/Include"-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/DSP/PrivateInclude"-I"D:/Programas/Arm Keil/Keil/ARM_Compiler/1.6.3/Include"-I"D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o ./objects/main.o -MD)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61117790)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x61117790)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D49FB2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602AF24A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x6035BE86)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035BEA0)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61117790)
+I (I2C.h)(0x627B2FD1)
+I (Delay.h)(0x62813BD1)
+I (GY-271.h)(0x62813BD1)
+F (.\GY-271.cpp)(0x62813BD1)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/_Target_1-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/DSP/Include"-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/DSP/PrivateInclude"-I"D:/Programas/Arm Keil/Keil/ARM_Compiler/1.6.3/Include"-I"D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o ./objects/gy-271.o -MD)
+I (GY-271.h)(0x62813BD1)
+I (I2C.h)(0x627B2FD1)
+I (Delay.h)(0x62813BD1)
+F (.\GY-271.h)(0x62813BD1)()
+F (.\Delay.cpp)(0x62813BD1)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/_Target_1-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/DSP/Include"-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/DSP/PrivateInclude"-I"D:/Programas/Arm Keil/Keil/ARM_Compiler/1.6.3/Include"-I"D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o ./objects/delay.o -MD)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61117790)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x61117790)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D49FB2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602AF24A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x6035BE86)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035BEA0)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61117790)
+I (Delay.h)(0x62813BD1)
+F (.\Delay.h)(0x62813BD1)()
+F (.\I2C.cpp)(0x62813BD1)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Compiler-I./RTE/_Target_1-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/DSP/Include"-I"D:/Programas/Arm Keil/ARM/CMSIS/5.8.0/CMSIS/DSP/PrivateInclude"-I"D:/Programas/Arm Keil/Keil/ARM_Compiler/1.6.3/Include"-I"D:/Programas/Arm Keil/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o ./objects/i2c.o -MD)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61117790)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x61117790)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D49FB2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602AF24A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x6035BE86)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035BEA0)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61117790)
+I (I2C.h)(0x627B2FD1)
+F (.\I2C.h)(0x627B2FD1)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\BasicMathFunctions\BasicMathFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\BasicMathFunctions\BasicMathFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\BayesFunctions\BayesFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\BayesFunctions\BayesFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\CommonTables\CommonTables.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\CommonTables\CommonTablesF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\ComplexMathFunctions\ComplexMathFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\ControllerFunctions\ControllerFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\DistanceFunctions\DistanceFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\DistanceFunctions\DistanceFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\FastMathFunctions\FastMathFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\FastMathFunctions\FastMathFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\FilteringFunctions\FilteringFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\FilteringFunctions\FilteringFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\InterpolationFunctions\InterpolationFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\InterpolationFunctions\InterpolationFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\MatrixFunctions\MatrixFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\MatrixFunctions\MatrixFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\SVMFunctions\SVMFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\SVMFunctions\SVMFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\StatisticsFunctions\StatisticsFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\StatisticsFunctions\StatisticsFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\SupportFunctions\SupportFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\SupportFunctions\SupportFunctionsF16.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\TransformFunctions\TransformFunctions.c)(0x627001AE)()
+F (D:\Programas\Arm Keil\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\TransformFunctions\TransformFunctionsF16.c)(0x627001AE)()
+F (RTE\Compiler\EventRecorderConf.h)(0x5E6FDFBC)()
+F (D:\Programas\Arm Keil\Keil\ARM_Compiler\1.7.2\Source\EventRecorder.c)(0x62430114)()
+F (D:\Programas\Arm Keil\Keil\ARM_Compiler\1.7.2\Source\retarget_io.c)(0x584EE08E)()
+F (RTE\File_System\FS_Config.c)(0x5D10FF18)()
+F (RTE\File_System\FS_Debug.c)(0x5D14CFA4)()
+F (D:\Programas\Arm Keil\Keil\MDK-Middleware\7.15.0\FileSystem\Lib\ARM\FS_Dbg_LFN_CM3_L.lib)(0x6267C706)()

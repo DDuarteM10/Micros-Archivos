@@ -1,0 +1,39 @@
+Dependencies for Project 'fotodiodo', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Source\trabajo.cpp)(0x628075F2)(--cpp -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\trabajo.o --omf_browse .\objects\trabajo.crf --depend .\objects\trabajo.d)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61117790)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x61117790)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D49FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61117790)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025DA44)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x6025DA48)
+I (Source\Usart2.h)(0x627F07F5)
+F (.\Source\Usart2.cpp)(0x627F1D65)(--cpp -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\usart2.o --omf_browse .\objects\usart2.crf --depend .\objects\usart2.d)
+I (Source\Usart2.h)(0x627F07F5)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61117790)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x61117790)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D49FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61117790)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x6025DA44)
+F (.\Source\Usart2.h)(0x627F07F5)()
+F (RTE\Device\STM32F401RETx\startup_stm32f401xe.s)(0x61117790)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-I"D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F401xE SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f401xe.lst --xref -o .\objects\startup_stm32f401xe.o --depend .\objects\startup_stm32f401xe.d)
+F (RTE\Device\STM32F401RETx\system_stm32f4xx.c)(0x61117790)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61117790)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x61117790)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D49FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025DA4E)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D49FB2)
+I (D:\Programas\Arm Keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61117790)

@@ -1,0 +1,2 @@
+frecuencia de base=frecuencia_clock(16MhZ)/(Prescales+1)
+1/ARR=frecuencia deseada/frecuencia base
