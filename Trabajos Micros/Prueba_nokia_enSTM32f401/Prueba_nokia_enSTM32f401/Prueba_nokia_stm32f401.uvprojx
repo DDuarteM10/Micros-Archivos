@@ -52,7 +52,7 @@
           <OutputName>Prueba_nokia_stm32f401</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -397,6 +397,11 @@
               <FileName>Nokia.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Nokia.h</FilePath>
+            </File>
+            <File>
+              <FileName>Tecladoo (1).cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Tecladoo (1).cpp</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,12 +1,19 @@
 #include "Nokia.h"
+#include "stm32f4xx.h"                  // Device header
+#include "stdio.h"
 /*Configuracion de pines LCD NOKIA
 Reset PB0
 DC PB1
 Clock PB3 
-Din PB5*/
+Din PB5
+
+Nokia_5110(0xD5);
+Escribir_nokia_0(1,0,0,"Habia una vez una iguana",1);
+
+*/
 void Puertos_De_Comunicacion_SPI (void){
 	//Habilitar puerto A, B y E
-	RCC->AHB1ENR |= 0x13;
+	//RCC->AHB1ENR |= 0x13;
 	/*Puerto A
 	PA0: Salida
 	PA1: Salida
@@ -107,4 +114,21 @@ void nokia_pos(short Ypos, short Xpos){
 	
 	//DC en 1 para poder escribir
 	GPIOB->ODR |= 1;
+}
+void SepararDatos(int valor, float valorf,int menu,int y, int x){//1 int 2 float decimal 3 float 2decimales
+	char Datos[100];
+	switch (menu)
+  {
+  	case 1:
+			sprintf(Datos,"%d",valor);
+  		break;
+  	case 2:
+			sprintf(Datos,"%0.1f",valorf);
+  		break;
+		case 3:
+			sprintf(Datos,"%0.2f",valorf);
+  		break;
+  }
+	Escribir_nokia_0(1,x,y,Datos,0);
+  
 }

@@ -193,6 +193,10 @@
       <pMultCmdsp></pMultCmdsp>
       <SystemViewers>
         <Entry>
+          <Name>System Viewer\GPIOB</Name>
+          <WinId>35904</WinId>
+        </Entry>
+        <Entry>
           <Name>System Viewer\SPI1</Name>
           <WinId>35905</WinId>
         </Entry>
@@ -246,6 +250,18 @@
       <bDave2>0</bDave2>
       <PathWithFileName>.\Nokia.h</PathWithFileName>
       <FilenameWithoutPath>Nokia.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>4</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Tecladoo (1).cpp</PathWithFileName>
+      <FilenameWithoutPath>Tecladoo (1).cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

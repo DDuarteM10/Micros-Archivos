@@ -104,3 +104,4 @@ void reset(bool e);
 void TxSPI(unsigned char d);
 void Escribir_nokia_0(bool e, short X, short Y, char str[], bool c);
 void nokia_pos(short Ypos, short Xpos);
+void SepararDatos(int valor, float valorf,int menu,int x, int y);

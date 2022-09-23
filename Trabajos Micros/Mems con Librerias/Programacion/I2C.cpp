@@ -58,4 +58,9 @@ void IniciarI2C(void){
 	I2C1->CCR |= 80;
 	I2C1->TRISE |= 3;
 	I2C1->CR1 |= 0x0001;
+	GPIOB->MODER |= 0xA000; // Funciones especiales P7 y P6
+	GPIOB->AFR[0] |= 0x44000000; // canales F4 para P6 y P7
+	GPIOB->PUPDR |= 0xA000; //para I2C
+	GPIOB->OSPEEDR |= 0;
+	GPIOB->OTYPER |= 0xC0;//para I2C
 }
